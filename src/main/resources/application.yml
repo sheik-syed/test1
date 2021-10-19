@@ -2,14 +2,14 @@ server.port: 9090
 
 logging:
   level:
-    ROOT: INFO
-    com.ecomshop.deskplus: INFO
+    ROOT: DEBUG
+    com.ecomshop.deskplus: DEBUG
 
 spring:
   datasource:
-    url: jdbc:postgres://ligvubrzhbzrkp:772bc85c927209977d4fb5d85298c21b48ff0aa0c629acd1ab3ec960070fce6d@ec2-54-196-111-158.compute-1.amazonaws.com:5432/d3u9lhr75o7f0v
-    username: ligvubrzhbzrkp
-    password: 772bc85c927209977d4fb5d85298c21b48ff0aa0c629acd1ab3ec960070fce6d
+    url: jdbc:postgres://adyxaflcmrilmh:803e05406668a74d659674725cba8e3a510c50557cfbf34a964bbf81f895a562@ec2-18-215-96-54.compute-1.amazonaws.com:5432/d96c5ekhsp7cg5
+    username: adyxaflcmrilmh
+    password: 803e05406668a74d659674725cba8e3a510c50557cfbf34a964bbf81f895a562
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
