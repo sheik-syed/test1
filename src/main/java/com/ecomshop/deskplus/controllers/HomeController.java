@@ -68,6 +68,9 @@ public class HomeController {
             produces = {MediaType.APPLICATION_JSON_VALUE})
     public Map<String, Object> signup1(@RequestParam Map<String, Object> test){
         System.out.println("Hai Sheik, im in signup1");
+        for (Map.Entry<String,Object> entry : test.entrySet()){
+            System.out.println("[Sheik-mail-input]Key = " + entry.getKey() + ", Value = " + entry.getValue());
+        }
         return null;
     }
 
