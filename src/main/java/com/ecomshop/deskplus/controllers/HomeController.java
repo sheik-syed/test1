@@ -62,6 +62,17 @@ public class HomeController {
         return null;
     }
 
+
+    @RequestMapping(value = "/testme1", method = RequestMethod.POST,
+            consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE,
+            produces = {MediaType.APPLICATION_JSON_VALUE})
+    public Map<String, Object> signup1(@RequestParam Map<String, Object> test){
+        System.out.println("Hai Sheik, im in signup1");
+        return null;
+    }
+
+
+
     @GetMapping
     @RequestMapping("/testmeout")
     public String admin(){
